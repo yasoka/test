@@ -1,0 +1,54 @@
+2013-10-27 01:13:04 Warning: Warning (2): array_search() expects parameter 2 to be array, null given in [/var/www/candycane/app/Controller/WikiController.php, line 32]
+Trace:
+array_search - [internal], line ??
+WikiController::index() - APP/Controller/WikiController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
+2013-10-27 01:33:07 Warning: Warning (2): file_get_contents(https://api.github.com/repos//contents/) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in [/var/www/candycane/app/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 121]
+Trace:
+file_get_contents - [internal], line ??
+IndexController::_getContents() - APP/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 121
+IndexController::index() - APP/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
+2013-10-27 01:33:07 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/candycane/app/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 34]
+Trace:
+IndexController::index() - APP/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
+2013-10-27 01:33:08 Warning: Warning (2): file_get_contents(https://api.github.com/repos//commits) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in [/var/www/candycane/app/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 121]
+Trace:
+file_get_contents - [internal], line ??
+IndexController::_getContents() - APP/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 121
+IndexController::index() - APP/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 47
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
+2013-10-27 01:33:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/var/www/candycane/app/Plugin/CcRepositoryBrowser/View/Index/index.ctp, line 19]
+Trace:
+include - APP/Plugin/CcRepositoryBrowser/View/Index/index.ctp, line 19
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+

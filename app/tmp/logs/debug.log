@@ -1,0 +1,29 @@
+2013-10-27 01:33:06 Notice: Notice (8): Undefined index: Repository in [/var/www/candycane/app/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 30]
+Trace:
+IndexController::index() - APP/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
+2013-10-27 01:33:07 Notice: Notice (8): Undefined index: Repository in [/var/www/candycane/app/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 47]
+Trace:
+IndexController::index() - APP/Plugin/CcRepositoryBrowser/Controller/IndexController.php, line 47
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
+2013-10-27 01:34:00 Notice: Notice (8): Undefined index: Repository in [/var/www/candycane/app/Plugin/CcRepositoryBrowser/init.php, line 18]
+Trace:
+Configure::{closure}() - APP/Plugin/CcRepositoryBrowser/init.php, line 18
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 234
+Controller::render() - CORE/Cake/Controller/Controller.php, line 921
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
